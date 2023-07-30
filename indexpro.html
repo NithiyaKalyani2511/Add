@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Products System">
+    <title>Products System</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://CSS/all.min.css">
+</head>
+<body>
+
+    <h1>
+        Products System
+    </h1>
+<div class="form">
+    <form  autocomplete="off" id="stuform" onsubmit="onFormSubmit()">
+
+<tr id="Name">
+    <p><label for ="productname"> ProductName: </label></p>
+    <p><input type="text" name="productname" id="productname" autocomplete="off">
+
+    <div  id="p1">
+    
+    </div>
+    </tr>
+
+<tr id="Price">
+    <p><label for ="productprice"> Product Price: </label></p>
+    <p><input type="number" name="productprice" id="productprice"></p>
+
+    <div id="p2">
+        
+      </div>
+    </tr>
+
+    <tr id="Category">
+        <p><label for ="productcategory">Product Category: </label></p>
+        <p>
+          <select name="productcategory" id="productcategory" >
+            <option value=""></option>
+
+
+            <option value="Mobile" >Mobile</option>
+            <option value="TV">TV</option>
+            <option value="Laptop">Laptop</option>
+        </select> 
+            <div id="p3">
+                
+              </div> 
+        
+               
+        </p>
+        </tr>
+
+
+            <tr id="Condition">
+                <p><label for ="productcondition"> Product Condition: </label></p>
+                <p>
+                    <select class="productcondition1" name="productcondition" id="productcondition">
+    
+
+                      <option class="productcondition"id="Excellent" value="Excellent" >Excellent</option>
+                      <option class="productcondition"id="Good" value="Good">Good</option>
+                      <option class="productcondition" id="Bad" value="Bad">Bad</option>
+                    </select> 
+                      <div id="p4">
+                      
+                        </div> 
+                  
+                        
+                  </p>
+                </tr>  
+              
+                
+<div class="btn-field">
+                <tr>
+                    <td  ><input type="submit" class="button" id="Add-Product" style ="color:rgb(253, 252, 252)" value="Add product" ></td>
+
+                    <td ><input type="reset" class="button" onclick="clearFields()" id="Clear-Form"  style ="background-color:white" value="Clear Form"></button></td>
+
+
+                </tr>
+                
+                
+            </div>   
+
+<tr>
+   
+    <p><input type="text" name="Search By Name..." id="searchByName" placeholder="Search By Name..."></p>
+    
+    </tr>
+    </form>
+
+
+    <div class="table-box">
+        <table class="list" id="storeList">
+            <thead>
+<!-- <tr>
+     <th>Index</th> 
+<th>Name</th>
+<th>Price</th>
+<th>Category</th>
+<th>Condition</th>
+<th>Actions</th>
+</tr>
+            </thead>
+        </table>
+        <tbody class="stulist">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button id="update"   title="Update"><i class="fa fa-pencil"></i></button>
+                <button id="delete"  title="Delete" style ="color:rgb(248, 0, 0)";><i class="fa fa-trash"></i></button>
+            </td> 
+
+        </tbody>
+    </div> -->
+    
+    <div class="table-box">
+        <table class="table table-striped  table-dark" id="storeList">
+            <thead>
+<tr>
+<!-- <th>Index</th> -->
+<th>Name</th>
+<th>Price</th>
+<th>Category</th>
+<th>Condition</th>
+<th>Actions</th>
+</tr>
+</thead>
+
+<tbody class="student-list">
+<tr>
+<!-- <td></td> -->
+<!-- <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><button id="update"   title="Update"><i class="fa fa-pencil"></i></button>
+    <button id="delete"  title="Delete" style ="color:rgb(248, 0, 0)";><i class="fa fa-trash"></i></button>
+</td> -->
+</tr>
+</tbody>
+</table>
+    </div>
+
+
+    <script src="./INDEX2pro.JS">
+
+
+
+    </script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+ 
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.form
+{    
+    padding-left:120px;
+}
+
+h1{
+    font-size:40px;
+    text-align: center;
+    justify-content: center;
+    padding-top:0px;
+    padding-bottom: 0px;
+    font-weight: 500;
+  
+}
+
+.button{
+    
+    color:#198754;
+    background-color:#198754;
+    height:40px;
+    width:100px;
+   
+    border-radius: 5px ;
+    border-color: #198754;
+
+    /* -moz-user-selecthover: #198754; */
+    box-sizing: border-box;
+    cursor:pointer;
+    
+  
+}
+#Clear-Form :hover{
+background: #198754;
+
+}
+
+.btn-field{
+    margin:30px 300px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    box-sizing: border-box;
+width:680px;
+line-height: 24px;
+
+}
+
+
+input,select{
+    width: 90%;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    border-width: 1px;
+}
+#productname,#productcategory,#ProductCondition,#productprice,#searchByName
+{
+line-height: 24px;
+
+margin-left :0px;
+margin-right: 0px;
+margin-top: 4px;
+
+padding-left :12px;
+padding-right: 12px;
+padding-top: 6px;
+
+}
+
+#p1,#p2
+{width: 90%;
+
+    line-height: 30px;
+
+    color: #410c11;
+    background-color: #e4c9cc;
+    border-color: #dc3545;
+    padding-right: calc(1.5em + 0.75rem);
+
+    padding-left: 20px;
+    border-radius: 6px;
+
+    }
+
+#Excellent{
+    border-color: black;
+    border:2px;
+    border-width: 40px;
+    background-color: green;
+    color:white;
+    height: 60px;
+    padding:10px;
+}
+
+#Good{
+    border-color: black;
+    border:2px;
+    border-width: 20px;
+    background-color: rgb(201, 150, 10);
+    color:white;
+    height: 40px;
+    padding:10px;
+}
+
+#Bad{
+    border-color: black;
+    border:2px;
+    border-width: 20px;
+    background-color: rgba(234, 33, 33, 0.897);
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+table coding 
+ .table-box{
+    width:100%;
+    padding:10px;
+}
+
+
+.table-box table{
+    width:90%;
+   
+}
+
+.table-box table tr td{
+   padding: 10px 0px 0px;
+   text-align: center;
+   
+}
+label {
+    display: inline-block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.table-box table tr td button {
+    background-color: rgba(248, 244, 244, 0.404);
+width:35px;
+border:none;
+outline: none;
+    color:rgba(254, 205, 5, 0.897);
+    font-size:20px;
+    padding: 0px 0px 5px;
+    cursor:pointer;
+    
+}
+
+
+
+
